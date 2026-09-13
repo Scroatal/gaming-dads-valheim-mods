@@ -16,6 +16,21 @@ This release supports Windows and ordinary Steam installations. It does not mana
 or Thunderstore profiles. Characters and worlds are not modified. The app is locally built and
 not code-signed. In-game compatibility still depends on the upstream mods.
 
+## Client add-ons
+
+**Updater 1.1.0 adds Deepwater Fishing 1.0.8 and Gravestone Assist 1.0.0.**
+Players using the original updater should download and extract the new ZIP once, then run
+**Update mods** with Valheim closed. Each player installs these mods locally.
+
+Deepwater Fishing includes the splash cue, journal input fix and perfect-catch material rewards.
+Gravestone Assist helps select your own nearby grave within 5 metres. Existing fishing journals
+and personal mod settings are preserved. Restart the game after updating.
+
+`Gaming-Dads-Valheim-Client-Addons.json` holds the reviewed client DLLs and their SHA-256 hashes.
+Updater 1.1.0 reads this file on each update. It is separate from the server manifest so automatic
+server publishing preserves the client add-ons. A failed download or hash check stops installation.
+These builds passed automated and isolated installation checks; in-game testing remains separate.
+
 ## What is stored here
 
 `Gaming-Dads-Valheim-Player-Manifest.json` contains package versions, file hashes and selected
