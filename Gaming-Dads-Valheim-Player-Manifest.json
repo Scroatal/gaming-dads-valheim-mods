@@ -1,0 +1,757 @@
+{
+  "schema": 1,
+  "game": "valheim",
+  "title": "Gaming Dads Valheim",
+  "created_at": "2026-09-13T11:40:36.021271+00:00",
+  "packages": {
+    "denikson-BepInExPack_Valheim": {
+      "version": "5.4.2350",
+      "files": {
+        "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+        "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+        "BepInEx/core/0Harmony20.dll": "5708451a91eaecee71a49b1881fb081ee22142e11de04e8575f4f6832fa16d0e",
+        "BepInEx/core/BepInEx.dll": "f09821b2a7b990c6f50c5ef23229635303ce675374b70edc6f5a9b960cb818e3",
+        "BepInEx/core/BepInEx.Harmony.dll": "2f0270073e307095ce980f578bfc9489f7ac98d360b9d41f77370a84c33edd7a",
+        "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+        "BepInEx/core/BepInEx.Preloader.dll": "fb21bf85c462bc5376435eccfed23f07a36baa94f770ff35cd567e17d2997c8d",
+        "BepInEx/core/BepInEx.Preloader.xml": "ab433415cb8f006f683c0c193d140b92f0244568e6e443d53a5c4c18a632dc98",
+        "BepInEx/core/BepInEx.xml": "65b9d6e40c8645e04cf1cf6342c2812f52766f2d0fc1b5736b03f17fb23df11e",
+        "BepInEx/core/HarmonyXInterop.dll": "dac1b52655f03ba00773eb63894bfd0da4d4df6d47041a64cfd4b1da757371ba",
+        "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+        "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+        "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+        "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+        "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+        "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+        "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+        "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+        "winhttp.dll": "93406d0a02e7c164b89828cbfe3b289930a112d2eca50bd4a52e72ece169e6a8"
+      }
+    },
+    "Grantapher-ValheimPlus_Grantapher_Temporary": {
+      "version": "10.1.1",
+      "files": {
+        "BepInEx/plugins/Grantapher.ValheimPlus/ValheimPlus.dll": "0d7faa2e866fe27dd159cb4a477a951e4f14be52ac3b11f765e029ae653735ea"
+      }
+    },
+    "Marlthon-ValheimQol": {
+      "version": "0.0.6",
+      "files": {
+        "BepInEx/plugins/ValheimQoL/ValheimQoL.dll": "db3219afcb7d278f8ec366b974e0e3397476a5dfab6dfe27612fadc84009a1a6"
+      }
+    },
+    "jg224-ChestFlow": {
+      "version": "0.5.7",
+      "files": {
+        "BepInEx/plugins/JG224.ChestFlow/ChestFlow.dll": "8df86afe2cdcb81fced66e56af267d2b9d6cb0b22ed6dd997941f266463ae2c0"
+      }
+    },
+    "jg224-ModCore": {
+      "version": "0.5.0",
+      "files": {
+        "BepInEx/plugins/JG224.ModCore/JG224.ModCore.dll": "37f728039ba36b494fb44ebf7d2af53151b8d2224d238b4c3235580c348eff1d"
+      }
+    },
+    "TastyChickenLegs-TreesReborn": {
+      "version": "1.1.3",
+      "files": {
+        "BepInEx/plugins/TreesReborn/configs/tree_dict.json": "02a6d625f690e3fb7693c0e6a73f9e33e7280f8f7e080fd7e068ad8e9d9c16f6",
+        "BepInEx/plugins/TreesReborn/configs/tree_dict_PlantingPlus.json": "02a6d625f690e3fb7693c0e6a73f9e33e7280f8f7e080fd7e068ad8e9d9c16f6",
+        "BepInEx/plugins/TreesReborn/configs/tree_dict_Plant_all_trees.json": "b67abebaf745f5cc556076d0e7ee6d8cd065d04e9e8ce14c542208a01a9019f9",
+        "BepInEx/plugins/TreesReborn/configs/tree_dict_Plant_Everything.json": "b51ffac80f44ab6d5c588833b804e371efce84c7036ff7e527fb119a18c5944f",
+        "BepInEx/plugins/TreesReborn/TreesReborn.dll": "7ec4769e9bd3b462c457027ca70f2a6194aaa1c8b60f4cab519faca025fef313"
+      }
+    },
+    "jg224-GearSlots": {
+      "version": "0.5.2",
+      "files": {
+        "BepInEx/plugins/JG224.GearSlots/GearSlots.dll": "7efb5d3b684412874f35cbbffe4bd11475febcf7042d8fd5ddb0a961c8160715"
+      }
+    },
+    "jg224-RegeneratingWorld": {
+      "version": "0.5.1",
+      "files": {
+        "BepInEx/plugins/JG224.RegeneratingWorld/RegeneratingWorld.dll": "8e649afa64a8f0b5324fa1980b768a5a2987456da784ff894807f3b865da95fd"
+      }
+    },
+    "ValheimModding-JsonDotNET": {
+      "version": "13.0.4",
+      "files": {
+        "BepInEx/plugins/ValheimModding.JsonDotNET/Newtonsoft.Json.dll": "d134937ec381729074694490e81983b08ec7991b31550eabafb9202e5b404f89",
+        "BepInEx/plugins/ValheimModding.JsonDotNET/NewtonsoftJsonDetector.dll": "513f2b88dfea6b96336a63d4120cdfc05011391ab45d981989e88844722d84b7"
+      }
+    },
+    "ValheimModding-Jotunn": {
+      "version": "2.30.0",
+      "files": {
+        "BepInEx/plugins/ValheimModding.Jotunn/Jotunn.dll": "51d32cfbe2db5c203ffb8855c155d185d572dda72db49066905679d8ec5e3c46",
+        "BepInEx/plugins/ValheimModding.Jotunn/Jotunn.pdb": "63c47a0766436e33f91b746c1ee6245d2eec14bd2c56383f7b0b7b045685211e",
+        "BepInEx/plugins/ValheimModding.Jotunn/Jotunn.xml": "9825a1441790b54459c5f08ada4d26032bec1523ce1d337581bdf39d053291a3"
+      }
+    },
+    "RandyKnapp-EpicLoot": {
+      "version": "0.14.5",
+      "files": {
+        "BepInEx/plugins/RandyKnapp.EpicLoot/EpicLoot.dll": "9a0b06f3e05e8880f985ad68158d847750da5f73eaedefabe5e047ce7abef103"
+      }
+    },
+    "Therzie-Warfare": {
+      "version": "1.9.1",
+      "files": {
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.Chinese.yml": "e4bcfa90fb6e951dda19b846a0c4fd346834dc59a0b7e03f2ac6bd189dfe35cc",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.English-LatestUpToDate.yml": "7759a0546b2a000f7370d9607060fcf185125b803631996f3ff5da60e9753bdf",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.French.yml": "782f82f16337f6e086fbfe20045296ff69abdddf664d6736b3c25236be00bdf6",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.German.yml": "6a8048a2fb0741180b43059cf988916d56eb4435ff5c321b5c5d2cab74a4878f",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.Italian.yml": "c9a9d5a21c7f1e5db024c990d50bcbc7c5a8a9b697407a4db038c2989397bf1d",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.Korean.yml": "ef8376f0c97494c970414d558cda9598cee18380f77cddf451dd207b26c9eb9d",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.Polish.yml": "a6615e4478ef93df84cdff64531f3c74729994a71788f3f50db6419dd55ef667",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.Portuguese_Brazilian.yml": "7eab66e8f34a41cf5822381d92ae94dda9ca1ee75239b8d662589a1e556fccf4",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.Portuguese_European.yml": "7eab66e8f34a41cf5822381d92ae94dda9ca1ee75239b8d662589a1e556fccf4",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.Russian.yml": "3aa5870ca4e55e2d4547aeded658cf602f61fd981727d8a73d09327e61c4744f",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.Spanish.yml": "940607be7dab2c87e52ceb4df5dc619ddd21458d7470a8965fd23974054144dd",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.Thai.yml": "7392b1fc245e22b179b2a9584eee016c8592ee2a8d630d69f48e6f1eb9193c74",
+        "BepInEx/config/TherzieTranslations/Warfare/Warfare.Ukrainian.yml": "e34d2cef8c194c22f89670ba315d7b82d7a701e046a1908ec4de65f20b9bc362",
+        "BepInEx/plugins/Therzie.Warfare/Warfare.dll": "b4158ebba83a8c388f31d3e1e229cef217315a88823a1e9b3a750afab031024e"
+      }
+    }
+  },
+  "configs": {
+    "BepInEx/config/org.bepinex.plugins.valheim_plus.cfg": {
+      "AdvancedBuildingMode": {
+        "enabled": "true",
+        "enterAdvancedBuildingMode": "F1",
+        "exitAdvancedBuildingMode": "F3",
+        "copyObjectRotation": "Keypad7",
+        "pasteObjectRotation": "Keypad8",
+        "increaseScrollSpeed": "KeypadPlus",
+        "decreaseScrollSpeed": "KeypadMinus"
+      },
+      "AdvancedEditingMode": {
+        "enabled": "true",
+        "enterAdvancedEditingMode": "Keypad0",
+        "resetAdvancedEditingMode": "F7",
+        "abortAndExitAdvancedEditingMode": "F8",
+        "confirmPlacementOfAdvancedEditingMode": "KeypadEnter",
+        "copyObjectRotation": "Keypad7",
+        "pasteObjectRotation": "Keypad8",
+        "increaseScrollSpeed": "KeypadPlus",
+        "decreaseScrollSpeed": "KeypadMinus"
+      },
+      "Armor": {
+        "enabled": "false",
+        "helmets": "0",
+        "chests": "0",
+        "legs": "0",
+        "capes": "0"
+      },
+      "AutoStack": {
+        "enabled": "false",
+        "autoStackAllRange": "10",
+        "autoStackAllIgnorePrivateAreaCheck": "false",
+        "autoStackAllIgnoreEquipment": "false",
+        "ignoreAmmo": "false",
+        "ignoreFood": "false",
+        "ignoreMead": "false"
+      },
+      "Bed": {
+        "enabled": "false",
+        "sleepWithoutSpawn": "false",
+        "unclaimedBedsOnly": "false"
+      },
+      "Beehive": {
+        "enabled": "true",
+        "honeyProductionSpeed": "400",
+        "maximumHoneyPerBeehive": "20",
+        "autoDeposit": "true",
+        "autoDepositRange": "30",
+        "showDuration": "false"
+      },
+      "Brightness": {
+        "enabled": "false",
+        "nightBrightnessMultiplier": "0"
+      },
+      "Building": {
+        "enabled": "false",
+        "noInvalidPlacementRestriction": "false",
+        "noMysticalForcesPreventPlacementRestriction": "false",
+        "noWeatherDamage": "false",
+        "maximumPlacementDistance": "8",
+        "pieceComfortRadius": "10",
+        "alwaysDropResources": "false",
+        "alwaysDropExcludedResources": "false",
+        "enableAreaRepair": "false",
+        "areaRepairRadius": "7.5"
+      },
+      "Camera": {
+        "enabled": "false",
+        "cameraMaximumZoomDistance": "6",
+        "cameraBoatMaximumZoomDistance": "6",
+        "cameraFOV": "65"
+      },
+      "Chat": {
+        "enabled": "false",
+        "shoutDistance": "0",
+        "pingDistance": "0",
+        "forcedCase": "true",
+        "outOfRangeShoutsDisplayInChatWindow": "true",
+        "defaultWhisperDistance": "4",
+        "defaultNormalDistance": "15",
+        "defaultShoutDistance": "70"
+      },
+      "CraftFromChest": {
+        "enabled": "true",
+        "range": "30",
+        "disableCookingStation": "false",
+        "checkFromWorkbench": "true",
+        "ignorePrivateAreaCheck": "false",
+        "lookupInterval": "3",
+        "allowCraftingFromCarts": "false",
+        "allowCraftingFromShips": "false"
+      },
+      "Demister": {
+        "enabled": "true",
+        "wispLight": "50",
+        "wispTorch": "60",
+        "mistwalker": "25"
+      },
+      "Durability": {
+        "enabled": "true",
+        "axes": "9900",
+        "pickaxes": "9900",
+        "hammer": "9900",
+        "cultivator": "9900",
+        "hoe": "9900",
+        "weapons": "9900",
+        "armor": "9900",
+        "bows": "9900",
+        "shields": "9900",
+        "torch": "9900"
+      },
+      "Egg": {
+        "enabled": "true",
+        "showHatchTime": "false",
+        "hatchTime": "100",
+        "growTime": "1000",
+        "requireShelter": "true",
+        "canStack": "false",
+        "soldByDefault": "false",
+        "sellPrice": "1500"
+      },
+      "EitrRefinery": {
+        "enabled": "true",
+        "maximumSap": "200",
+        "maximumSoftTissue": "100",
+        "productionSpeed": "13.33333",
+        "autoDeposit": "true",
+        "autoFuel": "true",
+        "ignorePrivateAreaCheck": "false",
+        "autoRange": "30"
+      },
+      "EitrUsage": {
+        "enabled": "false",
+        "bloodMagic": "0",
+        "elementalMagic": "0"
+      },
+      "Experience": {
+        "enabled": "false",
+        "swords": "0",
+        "knives": "0",
+        "clubs": "0",
+        "polearms": "0",
+        "spears": "0",
+        "blocking": "0",
+        "axes": "0",
+        "bows": "0",
+        "elementalMagic": "0",
+        "bloodMagic": "0",
+        "unarmed": "0",
+        "pickaxes": "0",
+        "woodCutting": "0",
+        "crossbows": "0",
+        "jump": "0",
+        "sneak": "0",
+        "run": "0",
+        "swim": "0",
+        "fishing": "0",
+        "cooking": "0",
+        "farming": "0",
+        "crafting": "0",
+        "ride": "0"
+      },
+      "Fermenter": {
+        "enabled": "true",
+        "fermenterDuration": "800",
+        "fermenterItemsProduced": "6",
+        "showDuration": "false",
+        "autoDeposit": "true",
+        "autoFuel": "true",
+        "ignorePrivateAreaCheck": "false",
+        "autoRange": "30"
+      },
+      "FireSource": {
+        "enabled": "false",
+        "torches": "false",
+        "fires": "false",
+        "autoFuel": "false",
+        "ignorePrivateAreaCheck": "true",
+        "autoRange": "10"
+      },
+      "FirstPerson": {
+        "enabled": "false",
+        "hotkey": "F10",
+        "raiseFOVHotkey": "PageUp",
+        "defaultFOV": "65",
+        "lowerFOVHotkey": "PageDown"
+      },
+      "Food": {
+        "enabled": "false",
+        "foodDurationMultiplier": "0",
+        "disableFoodDegradation": "false"
+      },
+      "FreePlacementRotation": {
+        "enabled": "true",
+        "rotateY": "LeftAlt",
+        "rotateX": "C",
+        "rotateZ": "V",
+        "copyRotationParallel": "F",
+        "copyRotationPerpendicular": "G"
+      },
+      "Furnace": {
+        "enabled": "true",
+        "maximumOre": "100",
+        "maximumCoal": "200",
+        "coalUsedPerProduct": "2",
+        "productionSpeed": "10",
+        "autoDeposit": "true",
+        "autoFuel": "true",
+        "ignorePrivateAreaCheck": "false",
+        "autoRange": "30",
+        "allowAllOres": "false"
+      },
+      "Game": {
+        "enabled": "false",
+        "gameDifficultyDamageScale": "4",
+        "gameDifficultyHealthScale": "30",
+        "extraPlayerCountNearby": "0",
+        "setFixedPlayerCountTo": "0",
+        "difficultyScaleRange": "200",
+        "disablePortals": "false",
+        "disableConsole": "false",
+        "bigPortalNames": "false",
+        "disableFog": "false"
+      },
+      "GameClock": {
+        "enabled": "false",
+        "useAMPM": "false",
+        "textFontSize": "34",
+        "textRedChannel": "248",
+        "textGreenChannel": "105",
+        "textBlueChannel": "0",
+        "textTransparencyChannel": "255"
+      },
+      "Gathering": {
+        "enabled": "false",
+        "wood": "0",
+        "fineWood": "0",
+        "coreWood": "0",
+        "elderBark": "0",
+        "yggdrasilWood": "0",
+        "stone": "0",
+        "blackMarble": "0",
+        "tinOre": "0",
+        "copperOre": "0",
+        "copperScrap": "0",
+        "ironScrap": "0",
+        "silverOre": "0",
+        "chitin": "0",
+        "feather": "0",
+        "dropChance": "0",
+        "grausten": "0",
+        "blackwood": "0",
+        "flametalOre": "0",
+        "proustitePowder": "0"
+      },
+      "GridAlignment": {
+        "enabled": "true",
+        "align": "LeftAlt",
+        "alignToggle": "F6",
+        "changeDefaultAlignment": "F9"
+      },
+      "HealthUsage": {
+        "enabled": "false",
+        "bloodMagic": "0"
+      },
+      "Hotkeys": {
+        "enabled": "false",
+        "rollForwards": "F9",
+        "rollBackwards": "F10"
+      },
+      "HotTub": {
+        "enabled": "false",
+        "infiniteFuel": "false",
+        "autoFuel": "false",
+        "ignorePrivateAreaCheck": "true",
+        "autoRange": "10"
+      },
+      "Hud": {
+        "enabled": "false",
+        "showRequiredItems": "false",
+        "experienceGainedNotifications": "false",
+        "removeDamageFlash": "false",
+        "displayBowAmmoCounts": "0"
+      },
+      "Inventory": {
+        "enabled": "true",
+        "inventoryFillTopToBottom": "false",
+        "mergeWithExistingStacks": "false",
+        "playerInventoryRows": "9",
+        "woodChestColumns": "8",
+        "woodChestRows": "10",
+        "personalChestColumns": "8",
+        "personalChestRows": "10",
+        "ironChestColumns": "8",
+        "ironChestRows": "15",
+        "blackmetalChestColumns": "8",
+        "blackmetalChestRows": "20",
+        "cartInventoryColumns": "8",
+        "cartInventoryRows": "15",
+        "karveInventoryColumns": "8",
+        "karveInventoryRows": "15",
+        "longboatInventoryColumns": "8",
+        "longboatInventoryRows": "15"
+      },
+      "Items": {
+        "enabled": "false",
+        "noTeleportPrevention": "false",
+        "baseItemWeightReduction": "0",
+        "itemStackMultiplier": "0",
+        "droppedItemOnGroundDurationInSeconds": "3600",
+        "itemsFloatInWater": "false"
+      },
+      "Kiln": {
+        "enabled": "true",
+        "productionSpeed": "5",
+        "maximumWood": "200",
+        "dontProcessFineWood": "true",
+        "dontProcessRoundLog": "true",
+        "autoDeposit": "true",
+        "autoFuel": "true",
+        "stopAutoFuelThreshold": "1000",
+        "ignorePrivateAreaCheck": "false",
+        "autoRange": "30"
+      },
+      "LootDrop": {
+        "enabled": "false",
+        "lootDropAmountMultiplier": "0",
+        "lootDropChanceMultiplier": "0"
+      },
+      "Map": {
+        "enabled": "true",
+        "shareMapProgression": "true",
+        "exploreRadius": "100",
+        "preventPlayerFromTurningOffPublicPosition": "true",
+        "shareAllPins": "true",
+        "displayCartsAndBoats": "true"
+      },
+      "MonsterProjectile": {
+        "enabled": "false",
+        "monsterMaxChargeVelocityMultiplier": "0",
+        "monsterMaxChargeAccuracyMultiplier": "0"
+      },
+      "Oven": {
+        "enabled": "false",
+        "infiniteFuel": "false",
+        "autoFuel": "false",
+        "ignorePrivateAreaCheck": "true",
+        "autoRange": "10"
+      },
+      "Pickable": {
+        "enabled": "false",
+        "edibles": "0",
+        "flowersAndIngredients": "0",
+        "materials": "0",
+        "valuables": "0",
+        "surtlingCores": "0",
+        "blackCores": "0",
+        "questItems": "0"
+      },
+      "Player": {
+        "enabled": "false",
+        "baseMaximumWeight": "300",
+        "baseMegingjordBuff": "150",
+        "baseAutoPickUpRange": "2",
+        "disableCameraShake": "false",
+        "baseUnarmedDamage": "70",
+        "cropNotifier": "false",
+        "restSecondsPerComfortLevel": "60",
+        "deathPenaltyMultiplier": "0",
+        "autoRepair": "false",
+        "guardianBuffDuration": "300",
+        "guardianBuffCooldown": "1200",
+        "disableGuardianBuffAnimation": "false",
+        "autoEquipShield": "false",
+        "autoUnequipShield": "false",
+        "skipIntro": "false",
+        "iHaveArrivedOnSpawn": "true",
+        "queueWeaponChanges": "false",
+        "dontUnequipItemsWhenSwimming": "false",
+        "reequipItemsAfterSwimming": "false",
+        "fallDamageScalePercent": "0",
+        "maxFallDamage": "100",
+        "skipTutorials": "false",
+        "disableEncumbered": "false",
+        "autoPickUpWhenEncumbered": "false",
+        "disableEightSecondTeleport": "false"
+      },
+      "PlayerProjectile": {
+        "enabled": "false",
+        "playerMinChargeVelocityMultiplier": "0",
+        "playerMaxChargeVelocityMultiplier": "0",
+        "playerMinChargeAccuracyMultiplier": "0",
+        "playerMaxChargeAccuracyMultiplier": "0",
+        "enableScaleWithSkillLevel": "false"
+      },
+      "Procreation": {
+        "enabled": "true",
+        "animalTypes": "All",
+        "loveInformation": "false",
+        "offspringInformation": "false",
+        "requiredLovePointsMultiplier": "-50",
+        "pregnancyDurationMultiplier": "-66.6667",
+        "pregnancyChanceMultiplier": "0",
+        "partnerCheckRangeMultiplier": "0",
+        "ignoreHunger": "false",
+        "ignoreAlerted": "false",
+        "creatureLimitMultiplier": "100",
+        "maturityDurationMultiplier": "-66.6667"
+      },
+      "SapCollector": {
+        "enabled": "false",
+        "sapProductionSpeed": "60",
+        "maximumSapPerCollector": "10",
+        "autoDeposit": "false",
+        "autoDepositRange": "10",
+        "showDuration": "false"
+      },
+      "Server": {
+        "enabled": "false",
+        "maxPlayers": "10",
+        "disableServerPassword": "false",
+        "enforceMod": "true",
+        "serverSyncsConfig": "true"
+      },
+      "ShieldGenerator": {
+        "enabled": "false",
+        "infiniteFuel": "false",
+        "autoFuel": "false",
+        "ignorePrivateAreaCheck": "true",
+        "autoRange": "10"
+      },
+      "Shields": {
+        "enabled": "false",
+        "blockRating": "0"
+      },
+      "Ship": {
+        "enabled": "true",
+        "forwardSpeed": "50",
+        "backwardSpeed": "50",
+        "rudderSpeed": "100",
+        "steerForce": "50",
+        "waterImpactDamage": "0"
+      },
+      "Smelter": {
+        "enabled": "true",
+        "maximumOre": "100",
+        "maximumCoal": "200",
+        "coalUsedPerProduct": "2",
+        "productionSpeed": "10",
+        "autoDeposit": "true",
+        "autoFuel": "true",
+        "ignorePrivateAreaCheck": "false",
+        "autoRange": "30"
+      },
+      "SpinningWheel": {
+        "enabled": "true",
+        "maximumFlax": "100",
+        "productionSpeed": "10",
+        "autoDeposit": "true",
+        "autoFuel": "true",
+        "ignorePrivateAreaCheck": "false",
+        "autoRange": "30"
+      },
+      "Stamina": {
+        "enabled": "false",
+        "dodgeStaminaUsage": "0",
+        "encumberedStaminaDrain": "0",
+        "jumpStaminaDrain": "0",
+        "runStaminaDrain": "0",
+        "sneakStaminaDrain": "0",
+        "staminaRegen": "0",
+        "staminaRegenDelay": "0",
+        "swimStaminaDrain": "0"
+      },
+      "StaminaUsage": {
+        "enabled": "false",
+        "axes": "0",
+        "bows": "0",
+        "blocking": "0",
+        "clubs": "0",
+        "knives": "0",
+        "pickaxes": "0",
+        "polearms": "0",
+        "spears": "0",
+        "swords": "0",
+        "unarmed": "0",
+        "hammer": "0",
+        "hoe": "0",
+        "cultivator": "0",
+        "fishing": "0"
+      },
+      "StructuralIntegrity": {
+        "enabled": "true",
+        "wood": "0",
+        "stone": "0",
+        "iron": "0",
+        "hardWood": "0",
+        "marble": "0",
+        "ashstone": "0",
+        "ancient": "0",
+        "ice": "0",
+        "timberwood": "0",
+        "disableStructuralIntegrity": "false",
+        "disableDamageToPlayerStructures": "true",
+        "disableDamageToPlayerBoats": "false",
+        "disableDamageToPlayerCarts": "false",
+        "disableWaterDamageToPlayerBoats": "false",
+        "disableWaterDamageToPlayerCarts": "false"
+      },
+      "Tameable": {
+        "enabled": "true",
+        "animalTypes": "All",
+        "mortality": "2",
+        "ownerDamageOverride": "true",
+        "stunRecoveryTime": "10",
+        "stunInformation": "false",
+        "tameTimeMultiplier": "-66.6667",
+        "tameBoostMultiplier": "0",
+        "tameBoostRangeMultiplier": "0",
+        "ignoreHunger": "false",
+        "ignoreAlerted": "false"
+      },
+      "Time": {
+        "enabled": "false",
+        "forcePartOfDay": "false",
+        "forcePartOfDayTime": "0.5",
+        "totalDayTimeInSeconds": "1800",
+        "nightPercent": "30"
+      },
+      "Turret": {
+        "enabled": "false",
+        "ignorePlayers": "false",
+        "unlimitedAmmo": "false",
+        "turnRate": "0",
+        "attackCooldown": "0",
+        "viewDistance": "0",
+        "projectileVelocity": "0",
+        "projectileAccuracy": "0"
+      },
+      "Wagon": {
+        "enabled": "false",
+        "wagonExtraMassFromItems": "0",
+        "wagonBaseMass": "20"
+      },
+      "Ward": {
+        "enabled": "false",
+        "wardRange": "20",
+        "wardEnemySpawnRange": "0"
+      },
+      "Windmill": {
+        "enabled": "true",
+        "maximumBarley": "100",
+        "productionSpeed": "3.333333",
+        "ignoreWindIntensity": "true",
+        "autoDeposit": "true",
+        "autoFuel": "true",
+        "ignorePrivateAreaCheck": "false",
+        "autoRange": "30"
+      },
+      "WispSpawner": {
+        "enabled": "false",
+        "maximumWisps": "3",
+        "onlySpawnAtNight": "true",
+        "wispSpawnIntervalMultiplier": "0",
+        "wispSpawnChanceMultiplier": "0"
+      },
+      "Workbench": {
+        "enabled": "false",
+        "workbenchRange": "20",
+        "workbenchEnemySpawnRange": "0",
+        "workbenchAttachmentRange": "5",
+        "disableRoofCheck": "false"
+      }
+    },
+    "BepInEx/config/marlthon.ValheimQoL.cfg": {
+      "General": {
+        "Force Server Config": "true"
+      },
+      "ItemBalance": {
+        "GlobalWeightMultiplier": "0.1",
+        "GlobalStackMultiplier": "10",
+        "CoinWeight": "0.001"
+      },
+      "ContainerControl": {
+        "EnableChestControl": "false"
+      },
+      "CraftFromContainers": {
+        "Enabled": "false"
+      },
+      "Smelters": {
+        "BulkFeedEnabled": "false",
+        "WindmillIgnoreWind": "false"
+      },
+      "WearNTear": {
+        "StructuralIntegrityControl": "false"
+      },
+      "MapShare": {
+        "PreventPublicToggle": "false"
+      }
+    },
+    "BepInEx/config/jg224.chestflow.cfg": {
+      "Shared Resources": {
+        "CraftFromNearbyChests": "false"
+      }
+    },
+    "BepInEx/config/TastyChickenLegs.TreesReborn.cfg": {
+      "General": {
+        "Enabled": "false"
+      }
+    },
+    "BepInEx/config/jg224.RegeneratingWorld.cfg": {
+      "General": {
+        "Enabled": "true",
+        "ScanIntervalSeconds": "60"
+      },
+      "Terrain": {
+        "Enabled": "true",
+        "ResetDays": "30"
+      },
+      "Locations": {
+        "Enabled": "true",
+        "ResetDays": "30"
+      },
+      "Resources": {
+        "Enabled": "true",
+        "FallbackResetDays": "30"
+      },
+      "Protection": {
+        "CraftingStationRadius": "40",
+        "PlayerSafetyRadius": "100"
+      }
+    },
+    "BepInEx/config/randyknapp.mods.epicloot.cfg": {
+      "2 - Balance": {
+        "Balance Template": "legendary"
+      }
+    }
+  }
+}
