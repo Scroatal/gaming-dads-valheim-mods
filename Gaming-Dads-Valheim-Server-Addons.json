@@ -3,12 +3,12 @@
   "game": "valheim",
   "addons": {
     "GamingDads-AutoKitchen": {
-      "version": "0.3.0",
-      "url": "https://github.com/Scroatal/gaming-dads-valheim-mods/releases/download/v1.2.0/AutoKitchen-0.3.0-model-test.zip",
-      "archive_sha256": "3143b835c01034a73b011021052c553da6f634dc3717a3fedad992926efec117",
-      "archive_bytes": 17310549,
+      "version": "0.3.2",
+      "url": "https://github.com/Scroatal/gaming-dads-valheim-mods/releases/download/kitchen-0.3.2/AutoKitchen-0.3.2-model-test.zip",
+      "archive_sha256": "65209d6d158349d33665f2daa54081002b66f625bbade3d5ecfb818c5eb99eb3",
+      "archive_bytes": 17318138,
       "files": {
-        "BepInEx/plugins/AutoKitchen/AutoKitchen.dll": "c05f35cb2acd99921efcb2dbfcdc0d2df96ae188c654a3ca84381872e0bfa323"
+        "BepInEx/plugins/AutoKitchen/AutoKitchen.dll": "54cda57b89e372ef7c52d384e18dce9355ab743e671fd49ee406db30429e7f34"
       },
       "game_sha256": "27a766a8d23a7bd8b6a54fb9ad0452a96c305fb3629b39c40527c09a1c393a84",
       "dependencies": {
