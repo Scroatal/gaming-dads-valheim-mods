@@ -16,15 +16,23 @@ This release supports Windows and ordinary Steam installations. It does not mana
 or Thunderstore profiles. Characters and worlds are not modified. The app is locally built and
 not code-signed. In-game compatibility still depends on the upstream mods.
 
-## Creature names and health bars: updater 1.2.1
+## OdinShip and updater 1.2.2
 
-**Download the new updater once.** [Get updater 1.2.1](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/tag/v1.2.1), extract the ZIP, close Valheim and select **Update mods**. The window title should say **1.2.1**. Older updaters cannot read the new health-bar add-on.
+**All players need the new updater.** [Download updater 1.2.2](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/tag/v1.2.2), extract the ZIP into a new folder, close Valheim and select **Update mods**. The window title should say **1.2.2**. Older updaters cannot install OdinShip.
+
+The server now uses **OdinShip 0.7.9**, which adds boats through the hammer's **OdinShip** category. Each player must install the matching version before joining. The server has loaded OdinShip successfully; crafting, sailing and multiplayer boat behaviour still need an in-game test. OdinShipPlus is incompatible with this mod.
+
+Server manager **0.3.14** includes OdinShip in startup update checks. The player updater installs the exact shared versions published by the server and preserves personal settings and unrelated mods.
+
+## Creature names and health bars
+
+Updater **1.2.2** includes Enemy Health Bar Range **1.0.2**. Close Valheim and select **Update mods** to install it.
 
 Enemy Health Bar Range **1.0.2** restores creature names and health bars affected by Proximity Interaction. Scott has confirmed the fix works in game. Aim at a nearby creature to activate its display. Proximity interactions and existing health-bar settings are preserved. Each affected player needs the client update; the health-bar fix does not require a server restart.
 
 ## Camp Kitchen
 
-**Current kitchen version: 0.3.2.** Use updater **1.2.1** from the link above and select **Update mods** before joining. This updater also installs the health-bar fix.
+**Current kitchen version: 0.3.2.** Use updater **1.2.2** from the link above and select **Update mods** before joining. This updater also installs the health-bar fix.
 
 The server has loaded kitchen 0.3.2, its model and the ChestFlow 0.5.7 adapter.
 The public download was tested with the existing updater in an isolated game
@@ -43,25 +51,25 @@ The older complete 1.1.1 pack and kitchen 0.3.0 archive are not current.
 supported game assembly and dependency versions. A missing feed, changed hash or
 unsupported game/dependency version stops the update without a stale fallback.
 
-## Manual installation fallback
+## Older manual installation snapshot
 
 [Download the complete manual mod ZIP](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/download/v1.1.1/Gaming-Dads-Valheim-Manual-Mod-Pack-2026-09-14.zip) (about 218 MB). This is a snapshot from 14 September 2026, including the 12 shared packages, Deepwater Fishing 1.0.8 and Gravestone Assist 1.0.0.
 
-Use this if the updater cannot connect. It contains the actual mod files, so no updater or additional mod downloads are needed. Fully close Valheim, extract the ZIP, and follow READ ME FIRST.txt. Back up existing mods first. Starter settings are kept separate to help preserve personal settings and fishing journals. Check with Scott before using this snapshot after later server updates.
+**This older snapshot does not include OdinShip or the current add-ons and cannot be used by itself to join the current server. Use updater 1.2.2 above for the matching installation.** It contains the actual mod files, so no updater or additional mod downloads are needed. Fully close Valheim, extract the ZIP, and follow READ ME FIRST.txt. Back up existing mods first. Starter settings are kept separate to help preserve personal settings and fishing journals. Check with Scott before using this snapshot after later server updates.
 
 Use the download above or the files under Releases; GitHub's green Code > Download ZIP button does not contain the playable mod pack.
 
 ## Certificate errors and updater 1.1.1
 
 If an older updater reports `CERTIFICATE_VERIFY_FAILED`, download and extract the latest ZIP
-into a new folder. Check the window title says **1.2.1** before selecting **Update mods**.
+into a new folder. Check the window title says **1.2.2** before selecting **Update mods**.
 This version uses Windows certificate-chain validation and retains expiry and hostname checks.
 If it still fails, send Scott the new error, which identifies the failing site and local time.
 A genuinely expired certificate or a problem with HTTPS inspection software still needs attention.
 
 ## Client add-ons
 
-**Updater 1.2.1 supports Deepwater Fishing 1.0.10, Gravestone Assist 1.0.0 and Enemy Health Bar Range 1.0.2.**
+**Updater 1.2.2 supports Deepwater Fishing 1.0.10, Gravestone Assist 1.0.0 and Enemy Health Bar Range 1.0.2.**
 Players using the original updater should download and extract the new ZIP once, then run
 **Update mods** with Valheim closed. Each player installs these mods locally.
 
@@ -70,7 +78,7 @@ Gravestone Assist helps select your own nearby grave within 5 metres. Existing f
 and personal mod settings are preserved. Restart the game after updating.
 
 `Gaming-Dads-Valheim-Client-Addons.json` holds the reviewed client DLLs and their SHA-256 hashes.
-Updater 1.2.1 reads this file on each update. It is separate from the server manifest so automatic
+Updater 1.2.2 reads this file on each update. It is separate from the server manifest so automatic
 server publishing preserves the client add-ons. A failed download or hash check stops installation.
 These builds passed automated and isolated installation checks; in-game testing remains separate.
 
