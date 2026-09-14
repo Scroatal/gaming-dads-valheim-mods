@@ -16,6 +16,16 @@ This release supports Windows and ordinary Steam installations. It does not mana
 or Thunderstore profiles. Characters and worlds are not modified. The app is locally built and
 not code-signed. In-game compatibility still depends on the upstream mods.
 
+## Camp Kitchen test and updater 1.2.0
+
+**Everyone needs the new player app once.** [Download updater 1.2.0](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/tag/v1.2.0), extract it, close Valheim and select **Update mods**. Check the window title says **1.2.0**. This adds Auto Kitchen **0.3.0**; older apps cannot download its larger model.
+
+The server and Scott's game have the same verified kitchen DLL. The server loaded the model and ChestFlow adapter. Actual multiplayer cooking still needs testing. ChestFlow shared access remains on. Build **Camp Kitchen** with the hammer under **Crafting**, near a workbench: **10 wood, 10 stone, 5 flint**. See the release notes and included TESTING.md for cooking requirements and safe test steps.
+
+`Gaming-Dads-Valheim-Server-Addons.json` pins the kitchen's GitHub release archive, file hashes, supported game assembly and dependency versions. New apps read it alongside the existing two feeds. A missing feed, mismatched hash or unsupported game/dependency version stops the update without a stale fallback.
+
+**Manual-pack users:** the older 1.1.1 complete ZIP below does not include the kitchen. Also install the separate [Auto Kitchen 0.3.0 test ZIP](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/download/v1.2.0/AutoKitchen-0.3.0-model-test.zip) into the active game/profile. Do not install a duplicate DLL.
+
 ## Manual installation fallback
 
 [Download the complete manual mod ZIP](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/download/v1.1.1/Gaming-Dads-Valheim-Manual-Mod-Pack-2026-09-14.zip) (about 218 MB). This is a snapshot from 14 September 2026, including the 12 shared packages, Deepwater Fishing 1.0.8 and Gravestone Assist 1.0.0.
@@ -27,7 +37,7 @@ Use the download above or the files under Releases; GitHub's green Code > Downlo
 ## Certificate errors and updater 1.1.1
 
 If an older updater reports `CERTIFICATE_VERIFY_FAILED`, download and extract the latest ZIP
-into a new folder. Check the window title says **1.1.1** before selecting **Update mods**.
+into a new folder. Check the window title says **1.2.0** before selecting **Update mods**.
 This version uses Windows certificate-chain validation and retains expiry and hostname checks.
 If it still fails, send Scott the new error, which identifies the failing site and local time.
 A genuinely expired certificate or a problem with HTTPS inspection software still needs attention.
