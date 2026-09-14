@@ -18,13 +18,27 @@ not code-signed. In-game compatibility still depends on the upstream mods.
 
 ## Camp Kitchen test and updater 1.2.0
 
-**Everyone needs the new player app once.** [Download updater 1.2.0](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/tag/v1.2.0), extract it, close Valheim and select **Update mods**. Check the window title says **1.2.0**. This adds Auto Kitchen **0.3.0**; older apps cannot download its larger model.
+**Current kitchen version: 0.3.2.** Close Valheim completely, open **Gaming Dads
+Valheim Updater 1.2.0** and select **Update mods** before joining. If you already
+have updater 1.2.0, you do not need a new EXE: it reads the current download feed.
+[Download updater 1.2.0](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/tag/v1.2.0).
 
-The server and Scott's game have the same verified kitchen DLL. The server loaded the model and ChestFlow adapter. Actual multiplayer cooking still needs testing. ChestFlow shared access remains on. Build **Camp Kitchen** with the hammer under **Crafting**, near a workbench: **10 wood, 10 stone, 5 flint**. See the release notes and included TESTING.md for cooking requirements and safe test steps.
+The server has loaded kitchen 0.3.2, its model and the ChestFlow 0.5.7 adapter.
+The public download was tested with the existing updater in an isolated game
+folder. Actual updated in-game fonts, controls and multiplayer cooking still need
+testing. Start with small quantities in test chests. ChestFlow shared access stays
+enabled; recipe requirements, reserves and the 10 wood / 10 stone / 5 flint build
+cost are unchanged. The new compact interface includes clearer chest selection
+and a 10-metre basic-cooking fire range.
 
-`Gaming-Dads-Valheim-Server-Addons.json` pins the kitchen's GitHub release archive, file hashes, supported game assembly and dependency versions. New apps read it alongside the existing two feeds. A missing feed, mismatched hash or unsupported game/dependency version stops the update without a stale fallback.
+The updater supports ordinary Windows Steam installs, not mod-manager profiles.
+**Manual/profile users:** retain the matching shared dependencies and replace your
+old kitchen DLL once with the [Camp Kitchen 0.3.2 test ZIP](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/download/kitchen-0.3.2/AutoKitchen-0.3.2-model-test.zip).
+The older complete 1.1.1 pack and kitchen 0.3.0 archive are not current.
 
-**Manual-pack users:** the older 1.1.1 complete ZIP below does not include the kitchen. Also install the separate [Auto Kitchen 0.3.0 test ZIP](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/download/v1.2.0/AutoKitchen-0.3.0-model-test.zip) into the active game/profile. Do not install a duplicate DLL.
+`Gaming-Dads-Valheim-Server-Addons.json` pins the current kitchen archive, hashes,
+supported game assembly and dependency versions. A missing feed, changed hash or
+unsupported game/dependency version stops the update without a stale fallback.
 
 ## Manual installation fallback
 
