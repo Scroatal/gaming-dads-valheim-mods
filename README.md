@@ -16,6 +16,14 @@ This release supports Windows and ordinary Steam installations. It does not mana
 or Thunderstore profiles. Characters and worlds are not modified. The app is locally built and
 not code-signed. In-game compatibility still depends on the upstream mods.
 
+## Manual installation fallback
+
+[Download the complete manual mod ZIP](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/download/v1.1.1/Gaming-Dads-Valheim-Manual-Mod-Pack-2026-09-14.zip) (about 218 MB). This is a snapshot from 14 September 2026, including the 12 shared packages, Deepwater Fishing 1.0.8 and Gravestone Assist 1.0.0.
+
+Use this if the updater cannot connect. It contains the actual mod files, so no updater or additional mod downloads are needed. Fully close Valheim, extract the ZIP, and follow READ ME FIRST.txt. Back up existing mods first. Starter settings are kept separate to help preserve personal settings and fishing journals. Check with Scott before using this snapshot after later server updates.
+
+Use the download above or the files under Releases; GitHub's green Code > Download ZIP button does not contain the playable mod pack.
+
 ## Certificate errors and updater 1.1.1
 
 If an older updater reports `CERTIFICATE_VERIFY_FAILED`, download and extract the latest ZIP
