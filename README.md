@@ -16,12 +16,15 @@ This release supports Windows and ordinary Steam installations. It does not mana
 or Thunderstore profiles. Characters and worlds are not modified. The app is locally built and
 not code-signed. In-game compatibility still depends on the upstream mods.
 
-## Camp Kitchen test and updater 1.2.0
+## Creature names and health bars: updater 1.2.1
 
-**Current kitchen version: 0.3.2.** Close Valheim completely, open **Gaming Dads
-Valheim Updater 1.2.0** and select **Update mods** before joining. If you already
-have updater 1.2.0, you do not need a new EXE: it reads the current download feed.
-[Download updater 1.2.0](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/tag/v1.2.0).
+**Download the new updater once.** [Get updater 1.2.1](https://github.com/Scroatal/gaming-dads-valheim-mods/releases/tag/v1.2.1), extract the ZIP, close Valheim and select **Update mods**. The window title should say **1.2.1**. Older updaters cannot read the new health-bar add-on.
+
+Enemy Health Bar Range **1.0.2** restores creature names and health bars affected by Proximity Interaction. Scott has confirmed the fix works in game. Aim at a nearby creature to activate its display. Proximity interactions and existing health-bar settings are preserved. Each affected player needs the client update; the health-bar fix does not require a server restart.
+
+## Camp Kitchen
+
+**Current kitchen version: 0.3.2.** Use updater **1.2.1** from the link above and select **Update mods** before joining. This updater also installs the health-bar fix.
 
 The server has loaded kitchen 0.3.2, its model and the ChestFlow 0.5.7 adapter.
 The public download was tested with the existing updater in an isolated game
@@ -51,14 +54,14 @@ Use the download above or the files under Releases; GitHub's green Code > Downlo
 ## Certificate errors and updater 1.1.1
 
 If an older updater reports `CERTIFICATE_VERIFY_FAILED`, download and extract the latest ZIP
-into a new folder. Check the window title says **1.2.0** before selecting **Update mods**.
+into a new folder. Check the window title says **1.2.1** before selecting **Update mods**.
 This version uses Windows certificate-chain validation and retains expiry and hostname checks.
 If it still fails, send Scott the new error, which identifies the failing site and local time.
 A genuinely expired certificate or a problem with HTTPS inspection software still needs attention.
 
 ## Client add-ons
 
-**Updater 1.1.0 adds Deepwater Fishing 1.0.8 and Gravestone Assist 1.0.0.**
+**Updater 1.2.1 supports Deepwater Fishing 1.0.10, Gravestone Assist 1.0.0 and Enemy Health Bar Range 1.0.2.**
 Players using the original updater should download and extract the new ZIP once, then run
 **Update mods** with Valheim closed. Each player installs these mods locally.
 
@@ -67,7 +70,7 @@ Gravestone Assist helps select your own nearby grave within 5 metres. Existing f
 and personal mod settings are preserved. Restart the game after updating.
 
 `Gaming-Dads-Valheim-Client-Addons.json` holds the reviewed client DLLs and their SHA-256 hashes.
-Updater 1.1.0 reads this file on each update. It is separate from the server manifest so automatic
+Updater 1.2.1 reads this file on each update. It is separate from the server manifest so automatic
 server publishing preserves the client add-ons. A failed download or hash check stops installation.
 These builds passed automated and isolated installation checks; in-game testing remains separate.
 
