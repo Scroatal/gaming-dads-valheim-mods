@@ -2,7 +2,7 @@
   "schema": 1,
   "game": "valheim",
   "title": "Gaming Dads Valheim",
-  "created_at": "2026-09-13T11:40:36.021271+00:00",
+  "created_at": "2026-09-14T13:10:39.958695+00:00",
   "packages": {
     "denikson-BepInExPack_Valheim": {
       "version": "5.4.2350",
@@ -112,6 +112,12 @@
         "BepInEx/config/TherzieTranslations/Warfare/Warfare.Thai.yml": "7392b1fc245e22b179b2a9584eee016c8592ee2a8d630d69f48e6f1eb9193c74",
         "BepInEx/config/TherzieTranslations/Warfare/Warfare.Ukrainian.yml": "e34d2cef8c194c22f89670ba315d7b82d7a701e046a1908ec4de65f20b9bc362",
         "BepInEx/plugins/Therzie.Warfare/Warfare.dll": "b4158ebba83a8c388f31d3e1e229cef217315a88823a1e9b3a750afab031024e"
+      }
+    },
+    "Marlthon-OdinShip": {
+      "version": "0.7.9",
+      "files": {
+        "BepInEx/plugins/Marlthon.OdinShip/OdinShip.dll": "de48db15c4d251f3045ca0d4bfa40ca0ab71abd9c2bc974369add702bf249598"
       }
     }
   },
