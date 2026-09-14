@@ -16,6 +16,14 @@ This release supports Windows and ordinary Steam installations. It does not mana
 or Thunderstore profiles. Characters and worlds are not modified. The app is locally built and
 not code-signed. In-game compatibility still depends on the upstream mods.
 
+## Certificate errors and updater 1.1.1
+
+If an older updater reports `CERTIFICATE_VERIFY_FAILED`, download and extract the latest ZIP
+into a new folder. Check the window title says **1.1.1** before selecting **Update mods**.
+This version uses Windows certificate-chain validation and retains expiry and hostname checks.
+If it still fails, send Scott the new error, which identifies the failing site and local time.
+A genuinely expired certificate or a problem with HTTPS inspection software still needs attention.
+
 ## Client add-ons
 
 **Updater 1.1.0 adds Deepwater Fishing 1.0.8 and Gravestone Assist 1.0.0.**
